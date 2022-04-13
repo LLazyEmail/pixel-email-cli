@@ -1,5 +1,5 @@
 {
-	"name": "filenamify-cli",
+	"name": "pixel-email-cli",
 	"version": "0.2.0",
 	"description": "Command-line for converting markdown content into emails",
 	"license": "MIT",
