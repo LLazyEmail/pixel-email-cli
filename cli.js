@@ -6,10 +6,6 @@ import meow from 'meow';
 // import { generateFullTemplate2 } from 'atherdon-newsletter-html-replace';
 // import { generateReactFullTemplate } from 'atherdon-newsletter-react-replacer';
 
-
-// import filenamify from 'filenamify';
-// import filenamifyUrl from 'filenamify-url';
-
 // https://www.npmjs.com/package/meow
 
 const cli = meow(`
