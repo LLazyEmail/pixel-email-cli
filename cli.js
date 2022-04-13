@@ -1,6 +1,11 @@
 #!/usr/bin/env node
 import meow from 'meow';
-import isUrl from 'is-url-superb';
+// import isUrl from 'is-url-superb';
+
+// import methods from 'generator or parser to run this thing'
+// import { generateFullTemplate2 } from 'atherdon-newsletter-html-replace';
+// import { generateReactFullTemplate } from 'atherdon-newsletter-react-replacer';
+
 
 // import filenamify from 'filenamify';
 // import filenamifyUrl from 'filenamify-url';
@@ -16,7 +21,7 @@ const cli = meow(`
       --contentOnly Content Only option [Default: !]
 	  --noAdv  Generating template without advertising block
       --full   Full Template
-
+      --empty  
 
       --react  React DOM version 
       --reactFull Full template for React template
@@ -49,6 +54,9 @@ const cli = meow(`
         reactFull: {
 			type: 'boolean',
 		},
+        empty: {
+			type: 'boolean',
+		},
 	},
 
     //
@@ -73,7 +81,8 @@ const cli = meow(`
 
 const [text] = cli.input;
 
-const method = isUrl(text) ? filenamifyUrl : filenamify;
+// const method = text == 'html' ? filenamifyUrl : filenamify;
+const method = (text == 'html') ? 'PARSE=full node ./src/parser' : 'PARSE=reactContentOnly node ./src/parser';
 
 
 console.log(method(text, cli.flags));
