@@ -7,3 +7,5 @@
 
 - add
 https://github.com/sindresorhus/valid-filename/blob/main/.github/workflows/main.yml
+
+think about passing SOURCE constant for content
