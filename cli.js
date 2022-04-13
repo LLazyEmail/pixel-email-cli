@@ -85,4 +85,6 @@ const [text] = cli.input;
 const method = (text == 'html') ? 'PARSE=full node ./src/parser' : 'PARSE=reactContentOnly node ./src/parser';
 
 
-console.log(method(text, cli.flags));
+console.log(text, cli.flags);
+
+// console.log(method(text, cli.flags));
