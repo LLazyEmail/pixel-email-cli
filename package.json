@@ -30,11 +30,11 @@
 		"dirname"
 	],
 	"dependencies": {
-		"meow": "^10.1.2"
+		"meow": "10.1.2"
 	},
 	"devDependencies": {
-		"ava": "^4.0.1",
-		"execa": "^6.0.0",
-		"xo": "^0.47.0"
+		"ava": "4.2.0",
+		"execa": "6.1.0",
+		"xo": "0.47.0"
 	}
 }
