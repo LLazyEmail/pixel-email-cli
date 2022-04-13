@@ -1,9 +1,9 @@
 {
 	"name": "filenamify-cli",
-	"version": "0.1.0",
+	"version": "0.2.0",
 	"description": "Command-line for converting markdown content into emails",
 	"license": "MIT",
-	"repository": "https://github.com/LLazyEmail/pixel-email-cli",	
+	"repository": "https://github.com/LLazyEmail/pixel-email-cli",
 	"author": {
 		"name": "Arthur Tkachenko",
 		"email": "arthur.tkachenko.netweight@gmail.com",
