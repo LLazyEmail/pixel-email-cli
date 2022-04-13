@@ -1,0 +1,40 @@
+{
+	"name": "filenamify-cli",
+	"version": "0.1.0",
+	"description": "Command-line for converting markdown content into emails",
+	"license": "MIT",
+	"repository": "https://github.com/LLazyEmail/pixel-email-cli",	
+	"author": {
+		"name": "Arthur Tkachenko",
+		"email": "arthur.tkachenko.netweight@gmail.com",
+		"url": "https://hackernoon.com/u/arthur.tkachenko"
+	},
+	"type": "module",
+	"bin": {
+		"filenamify": "./cli.js"
+	},
+	"engines": {
+		"node": "^12.20.0 || ^14.13.1 || >=16.0.0"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"cli.js"
+	],
+	"keywords": [
+		"cli-app",
+		"cli",
+		"markdown",
+		"email",
+		"dirname"
+	],
+	"dependencies": {
+		"meow": "^10.1.2"
+	},
+	"devDependencies": {
+		"ava": "^4.0.1",
+		"execa": "^6.0.0",
+		"xo": "^0.47.0"
+	}
+}
