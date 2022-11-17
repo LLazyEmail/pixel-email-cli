@@ -30,7 +30,7 @@
 		"dirname"
 	],
 	"dependencies": {
-		"meow": "10.1.5"
+		"meow": "11.0.0"
 	},
 	"devDependencies": {
 		"ava": "5.1.0",
